@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock {
+    font-size: 5em;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+}
+
+.indicators {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 1em; 
+}
+
+.indicators span {
+    flex: 1;
+    margin-right: 30px;
+    color: white;
+}
+
+
+
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+
+#day-of-week {
+    font-size: 24px;
+    color: white; 
+}
+
+#stopwatch {
+    font-size: 5em; 
+    color: white;
+}
+
+.clock-stopwatch {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px wheat;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+    margin: 5px;
+    background-color: transparent;
+}
+
+#stopwatch-header {
+    position: absolute;
+    top: 42%;
+    transform: translateY(-150%);
+    font-size: 24px; 
+    color: white;
+    text-align: center;
+}
+
+.ter {
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 5em;
+    color: white;
+}
+
+#timer-header{
+    color: white;
+    font-size: 24px;
+}
+
+label {
+    /* display: grid; */
+    color: white;
+}
+
